@@ -1,6 +1,6 @@
 .friendrow {
     display: flex;
-    justify-content: space-around;
+    overflow-x: scroll;
 }
 
 .friend {
@@ -8,6 +8,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-right: 12px;
 
     img {
         width: 60px;
