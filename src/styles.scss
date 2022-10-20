@@ -1,1 +1,18 @@
-body { margin: 0; background-color: rgba($color: #000000, $alpha: 0.05); }
+body { margin: 0; background-color: rgba($color: #000000, $alpha: 0.05); font-family: 'Lato', sans-serif; }
+
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.standart-card {
+    background-color: white;
+    width: 400px;
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    border-radius: 4px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+}
+
+.padding-16 {
+    padding: 16px;
+}
