@@ -10,6 +10,7 @@ export class ProfileRowComponent implements OnInit {
   @Input() name = 'Marcy';
   @Input() img = 'assets/img/hamster/2.jpg';
   @Input() description = '1 Jahr alt';
+  @Input() canFollow = true;
 
   constructor(public fs: FriendService) { }
 

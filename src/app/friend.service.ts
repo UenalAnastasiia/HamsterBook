@@ -5,9 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class FriendService {
 
-  names = ['Klara'];
-  texts = ['2 Jahre alt']
-  images = ['assets/img/hamster/6.jpg'];
+  names = [];
+  texts = [];
+  images = [];
 
   // names = ['Daisy', 'Mia', 'Larissa', 'Laura'];
   // texts = ['1 Jahr alt', '2 Jahr alt', 'Isst gerne Kekse', '3 Jahr alt']
@@ -15,7 +15,7 @@ export class FriendService {
 
   constructor() { }
 
-  addFriend(name:string, text:string, image:string) {
+  addFriend(name, text, image) {
     this.names.push(name);
     this.texts.push(text);
     this.images.push(image);
